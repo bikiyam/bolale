@@ -1,0 +1,334 @@
+/*=========================== About Page =============================*/
+/*-------------  Introduction On About Page  -----------*/
+.backg img {
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+}
+
+.introduccontainer {
+  display: flex;
+  gap: 100px;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 4%, rgba(0, 0, 0, 0.6694327389) 36%, rgb(0, 0, 0) 100%);
+  padding: 90px 120px;
+  color: white;
+  text-align: left;
+  align-items: center;
+}
+
+.introduccontainertext {
+  width: 55%;
+}
+
+.introduccontainer h2 {
+  font-family: "Onest", sans-serif !important;
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: -10px;
+  margin-bottom: 17px;
+  animation: fadeleft 3.5s forwards cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.introduccontainer h3 {
+  font-family: "Onest", sans-serif;
+  font-size: 47px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.introduccontainer h4 {
+  font-size: 17px;
+  font-weight: 400;
+  animation: fadeleft 2s forwards cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.introduccontainerimg {
+  width: 30%;
+}
+
+.introduccontainerimg img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+  animation: faderight 2.5s forwards cubic-bezier(0.83, 0, 0.17, 1);
+}
+
+/*
+.introduccontainer h3 {
+  font-size: 47px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+*/
+.introduccontainer2 {
+  background: rgb(0, 0, 0);
+  color: white;
+  text-align: left;
+  padding: 100px 200px;
+}
+
+.introduccontainer2 h3 {
+  font-family: "Onest", sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.introduccontainer2 h4 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.introduccontainer3 {
+  background: black;
+  color: white;
+  text-align: left;
+  padding: 120px 200px;
+}
+
+.introduccontainer3 h3 {
+  font-family: "Onest", sans-serif;
+  font-size: 47px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.introduccontainer3 h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.introduccontainer3img {
+  padding: 30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+
+.introduccontainer3img img {
+  aspect-ratio: 16/9;
+  width: 48%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.introducimg img {
+  width: 300px;
+  padding-left: 60px;
+  padding-top: 80px;
+  margin-bottom: 100px;
+}
+
+/*------------------  Mission Section on About Page  -----------------*/
+.missions {
+  background: transparent;
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  color: black;
+}
+
+.missraw {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 150px;
+}
+
+.misscol {
+  justify-content: center;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 35%;
+  margin: 50px 25px;
+  animation-timeline: view() !important;
+  animation-range: entry 0 cover 10%;
+  animation: fadedown 5s forwards cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.misscol:hover {
+  scale: 1.05;
+  transition: 0.65s ease-out;
+}
+
+.misscol h2 {
+  font-family: "Onest", sans-serif !important;
+  padding: 10px 0px;
+  font-size: 27px;
+}
+
+.misscol h4 {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/*.aboutproductsh1 h1 {
+  font-size: 47px;
+  font-weight: 800;
+  text-align: center;
+}*/
+/*--------Products section on about page-------*/
+.aboutprod {
+  color: white;
+  background: rgb(0, 0, 0);
+  padding: 160px 200px;
+  text-align: end;
+}
+
+.aboutprod h2 {
+  font-family: "Onest", sans-serif;
+  font-size: 47px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.aboutprod h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.aboutprod a {
+  font-family: "Onest", sans-serif;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: white;
+  padding: 10px 20px;
+  color: #08090A;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.aboutprod a:hover {
+  scale: 1.03;
+  box-shadow: 0px 0px 6px rgb(255, 255, 255);
+  transition: 0.4s ease-in-out;
+}
+
+/* --------- Uniqueness Section on About Page ---------*/
+.uniqueness {
+  padding: 70px 180px;
+  margin: auto;
+  text-align: center;
+  background-size: cover;
+  background: transparent;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+}
+
+.uniqueness h1 {
+  font-family: "Onest", sans-serif;
+  color: white;
+  font-size: 47px;
+  font-weight: 800;
+  text-shadow: 0px 0px 7px black;
+}
+
+.uniqueness p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.uniqcol {
+  color: white;
+  flex-basis: 31%;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 30px 20px 15px 20px;
+  box-sizing: border-box;
+  transition: 0.7s;
+  font-weight: 100 !important;
+}
+
+.uniqcol p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0px;
+}
+
+.uniqcol h3 {
+  font-family: "Onest", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.uniqcol:hover {
+  scale: 1.05;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.534) inset;
+}
+
+@media (max-width: 930px) {
+  .uniqueness {
+    padding: 50px 10% 70px 10%;
+  }
+  .uniqueness h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .row2 {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .uniqueness p {
+    font-size: 14px;
+  }
+}
+.showofff {
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  padding: 65px 100px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.showofffcase {
+  border: solid 3px white;
+  border-radius: 20px;
+  width: 100px;
+  padding: 10px;
+  animation-timeline: view() !important;
+  animation-range: entry 0 cover 20%;
+  animation: fadedown 3s forwards cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.showofffcase:hover {
+  transform: rotate(360deg) scale(1.2);
+  transition: 0.2s ease-in-out;
+}
+
+.showofffcase h2 {
+  font-size: 35px;
+  font-family: "Onest", sans-serif;
+}/*# sourceMappingURL=About.css.map */

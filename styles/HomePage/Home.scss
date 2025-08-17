@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Onest", sans-serif !important;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/*------- Header for the Pages ---------*/
+.pagesheader {
+  padding: 75px;
+  padding-bottom: 20px;
+  color: white;
+  position: relative;
+  background: black;
+
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  h1 {
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 10px;
+  }
+}
+
+/*=========================== Products Page =============================*/
+
+.productsending {
+  padding: 70px 200px;
+  padding-bottom: 40px;
+  color: white;
+  text-align: center;
+
+  h3 {
+    font-family: "Onest", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: black;
+    text-align: center;
+  }
+
+  a {
+    font-family: "Onest", sans-serif;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: black;
+    margin-left: 50px;
+    padding: 8px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}

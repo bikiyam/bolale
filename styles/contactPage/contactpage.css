@@ -1,0 +1,108 @@
+/*=========================== Contact Us Page =============================*/
+/*------------------- Contact Container ------------------*/
+.backg img {
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+}
+
+.reachus {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.reach {
+  background: black;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 50px;
+  padding-top: 100px;
+  color: black;
+}
+.reach h2 {
+  font-family: "Onest", sans-serif !important;
+  padding: 10px 0px;
+  font-size: 50px;
+  color: white;
+}
+.reach h3 {
+  font-size: 20px;
+  padding-bottom: 7px;
+}
+.reach h4 {
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.reachrow {
+  display: flex;
+  padding: px;
+  align-items: start;
+}
+
+.reachrow1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.reachrow2 {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.reachcol {
+  text-align: start;
+  width: 70%;
+  background: rgba(251, 251, 251, 0.067);
+  border-radius: 3px;
+  padding: 40px 40px;
+  margin: 20px 0px;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+.reachcol h3 {
+  margin-bottom: 10px;
+}
+
+.reachsmlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-top: 4px;
+  gap: 20px;
+}
+
+.reachsmeachlist {
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.reachsmeachlist h3 {
+  font-size: 15px;
+  font-weight: 200;
+}
+.reachsmeachlist svg {
+  width: 37px;
+  height: 37px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.reachsmeachlist svg:hover {
+  scale: 1.25;
+  transition: 0.35s ease-in-out;
+}/*# sourceMappingURL=contactpage.css.map */

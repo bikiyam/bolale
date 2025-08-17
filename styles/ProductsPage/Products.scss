@@ -1,0 +1,255 @@
+/*----------------------------- Products hero section------------------------------------------------*/
+
+.backg {
+  img {
+    opacity: 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+  }
+}
+
+.productshero {
+  display: flex;
+  gap: 100px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.681) 0%,
+    rgba(255, 255, 255, 0) 4%,
+    rgba(0, 0, 0, 0.6694327389158788) 36%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  backdrop-filter: blur(8px);
+  padding: 86px 120px;
+  color: white;
+  text-align: left;
+  align-items: center;
+  h2 {
+    font-family: "Onest", sans-serif !important;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-bottom: 17px;
+  }
+  h3 {
+    font-family: "Onest", sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    animation: fadeleft 1.7s forwards cubic-bezier(0.16, 1, 0.3, 1);
+    transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  h4 {
+    font-size: 17px;
+    font-weight: 400;
+    animation: fadeleft 2.5s forwards cubic-bezier(0.16, 1, 0.3, 1);
+    transition: transform 3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
+.productsherotext {
+  width: 55%;
+}
+
+.productsheroimg {
+  width: 30%;
+  img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 15px;
+    animation: fadeleft 5s forwards cubic-bezier(0.16, 1, 0.3, 1);
+    transition: transform 3.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
+/*----------- Products List on Products Page --------*/
+.productslisted {
+  padding: 50px 100px;
+  color: white;
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: -30px;
+  }
+}
+
+.productslistedrow {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.productslistedcol {
+  width: 40%;
+  text-decoration: none;
+}
+
+.productslistedcol1 {
+  width: 20%;
+  text-decoration: none;
+}
+
+.productslistedlist {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/*------------------------Products Section-----------------------*/
+
+.prodlistsection {
+  background: linear-gradient(33deg, rgb(0, 0, 0) 5%, rgb(5, 5, 5) 100%);
+  padding: 100px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+/*---------  Products EACH List ----------*/
+
+.blacklist {
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 70px 150px;
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  list-style: none;
+  animation: fadeleft linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 10%;
+  h2 {
+    font-family: "Onest", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+  }
+  li {
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  img {
+    object-fit: cover;
+    aspect-ratio: 3/4;
+    width: 100%;
+    border-radius: 3px;
+  }
+}
+
+.blacklistforms {
+  margin-left: 40px;
+  h4 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+}
+
+.blacklistrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.blacklistcol {
+  width: 75%;
+}
+
+.blacklistcol h4 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.blacklistimgcol {
+  width: 35%;
+  padding: 20px;
+}
+
+.whitelist {
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 70px 150px;
+  background: rgba(114, 114, 114, 0.148);
+  color: white;
+  list-style: none;
+  animation: fadeleft linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 10%;
+  h2 {
+    font-family: "Onest", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0px 100px 20px 100px;
+    text-align: center;
+  }
+  li {
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  img {
+    object-fit: cover;
+    aspect-ratio: 3/4;
+    width: 100%;
+    border-radius: 43%;
+  }
+}
+
+.whitelistforms {
+  margin-left: 40px;
+  h4 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+}
+.whitelistrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.whitelistcol {
+  width: 75%;
+  h4 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+}
+.whitelistimgcol {
+  width: 35%;
+  padding: 20px;
+}
+
+.productsending {
+  padding: 70px 200px;
+  padding-bottom: 40px;
+  color: white;
+  text-align: center;
+  a {
+    font-family: "Onest", sans-serif;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: black;
+    margin-left: 50px;
+    padding: 8px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  h3 {
+    font-family: "Onest", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: black;
+    text-align: center;
+  }
+}

@@ -1,0 +1,176 @@
+/*=======================  Footer Section  ========================*/
+.footer {
+  position: relative;
+  display: flex;
+  border-top-left-radius: 0px;
+  color: white;
+  background: #000;
+  padding: 50px 8%;
+  z-index: 2;
+  position: relative;
+}
+
+.description {
+  width: 25%;
+}
+
+.companybrand {
+  display: flex;
+}
+
+.desclogo {
+  width: 15%;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.socialmedia {
+  display: inline-block;
+  width: 25%;
+
+  img {
+    aspect-ratio: 1;
+    width: 20px;
+    height: 100%;
+  }
+
+  h2 {
+    margin-bottom: 15px;
+  }
+}
+
+.footersm {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.creditss {
+  font-size: 16px;
+  font-weight: normal;
+  width: 600px;
+}
+
+.footertext {
+  display: flex;
+  width: 100%;
+
+  h4 {
+    font-weight: normal;
+    font-size: 13px;
+  }
+}
+
+.copyright {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  margin-right: auto;
+  display: flex;
+}
+
+/*------------- Tailwind footer section ------------*/
+.footercontainer {
+  font-family: "Onest", sans-serif !important;
+  padding: 48px 80px;
+  background: #000;
+  color: white;
+  border-top-left-radius: 0px;
+  overflow-y: none;
+  width: 100%;
+
+  h2 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  h4 {
+    font-weight: normal;
+    font-size: 16px;
+  }
+}
+
+.upperfooter {
+  display: flex;
+  margin-bottom: 20px;
+
+  h2 {
+    margin-bottom: 7px;
+  }
+}
+
+.footerbrand {
+  flex-direction: column;
+  font-size: 15px;
+  width: 60%;
+
+  img {
+    width: 96px;
+  }
+}
+
+.upperrightfooter {
+  display: flex;
+  gap: 56px;
+  flex-direction: row-reverse;
+}
+
+.footerloc {
+  flex-direction: column-reverse;
+  font-size: 15px;
+}
+
+.footerops {
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.socialmedias {
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.smlist {
+  flex-direction: column;
+  gap: 8px;
+}
+
+.smeachlist {
+  display: flex;
+  gap: 8px;
+
+  svg {
+    padding-top: 4px;
+  }
+}
+
+.lowerfooter {
+  display: flex;
+  width: 100%;
+  padding-right: 160px;
+  padding-bottom: -20px;
+  place-items: end;
+
+  h2 {
+    font-size: 15px;
+    font-weight: normal;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 320px;
+  }
+
+  h4 {
+    font-weight: normal;
+    font: 13px;
+  }
+
+  h3 {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    margin-right: auto;
+    display: flex;
+    gap: 4px;
+  }
+}

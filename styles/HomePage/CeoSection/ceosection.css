@@ -1,0 +1,51 @@
+/*------------------------------------------------ CEO's Part ---------------------------------------------*/
+.ceo {
+  position: relative;
+  padding: 120px 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background: rgb(255, 255, 255);
+  z-index: 20 !important;
+}
+
+.ceo h1 {
+  font-family: "Onest", sans-serif !important;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ceocont {
+  display: flex;
+}
+
+.ceoimgcont {
+  width: 30%;
+}
+
+.ceoimgcont img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 5px 10px 30px #000;
+}
+
+.ceotext {
+  padding: 50px;
+  width: 70%;
+  display: block;
+  text-align: center;
+  animation-timeline: view() !important;
+  animation-range: entry 0 cover 5%;
+  animation: fadedown 3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.ceotext h2 {
+  font-family: "Onest", sans-serif !important;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.ceotext h4 {
+  font-weight: 400;
+}/*# sourceMappingURL=ceosection.css.map */

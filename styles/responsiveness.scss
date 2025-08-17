@@ -1,0 +1,493 @@
+/*For Tablet*/
+@media(max-width:1150px) {
+    /*------- Navbar responsiveness -----------*/
+
+    .head a {
+        display: none !important;
+    }
+
+    .menuicon {
+        display: block;
+        margin-left: auto;
+    }
+
+    /*------- Enhancements responsiveness -----------*/
+    .circlee {
+        opacity: 0;
+    }
+
+    /*============== Home page responsiveness ================*/
+    /*-------Hero section responsiveness-----------*/
+    .header {
+        flex-direction: column;
+        padding: 180px 30px;
+    }
+
+    .headercontainer {
+        padding-bottom: 0px;
+        width: 100%;
+    }
+
+    .headerimgcontainer {
+        width: 0%;
+        height: 0px;
+    }
+
+    .headerimgcontainer img {
+        aspect-ratio: 16/9;
+    }
+
+    .header h1 {
+        font-size: 75px;
+        font-weight: 900;
+        line-height: 70px;
+    }
+
+    .header h3 {
+        font-weight: 300;
+        font-size: 17px;
+    }
+
+    /*-------About section responsiveness-----------*/
+    .about {
+        flex-direction: column;
+    }
+
+    .about img {
+        width: 0px;
+        height: 0px;
+    }
+
+    .aboutcontainer {
+        width: 100%;
+        margin-top: -250px;
+    }
+
+    .about h1 {
+        font-size: 55px;
+        font-weight: 800;
+    }
+
+
+
+    /*-------Products section responsiveness-----------*/
+    .products {
+        padding: 100px 50px;
+    }
+
+    .prodraw {
+        flex-wrap: wrap;
+        margin: 0px -10px;
+    }
+
+    .prodcol {
+        width: 45% !important;
+        margin: 30px 25px;
+    }
+
+    .prodcol img {
+        width: 100%;
+    }
+
+    /*-------Ceo section responsiveness-----------*/
+    .ceo {
+        padding: 120px 120px;
+    }
+
+    .ceoimgcont img {
+        width: 250px;
+    }
+
+    .ceotext {
+        padding: 50px -60px;
+    }
+
+    /*-------Testimonials section responsiveness-----------*/
+    .testcontainer {
+        width: 500px;
+    }
+
+    .test_row {
+        margin-top: 40px;
+    }
+
+    .test_col {
+        width: 600px;
+    }
+
+    /*-------Footer section responsiveness-----------*/
+    .footerbrand {
+        margin-right: 40px;
+        width: auto;
+    }
+
+
+    /*============== About page responsiveness ================*/
+    /*-------Hero section responsiveness-----------*/
+    .introduccontainer {
+        padding: 90px 50px;
+        gap: 20px;
+    }
+
+    .introduccontainerimg {
+        width: 40%;
+    }
+
+
+    /*-------What we do section responsiveness-----------*/
+    .introduccontainer3 {
+        padding: 120px 80px;
+    }
+
+    /*-------Missions section responsiveness-----------*/
+    .missraw {
+        padding: 0px 30px;
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+
+    .misscol {
+        width: 80%;
+    }
+
+    /*-------Products section responsiveness-----------*/
+    .aboutprod {
+        padding: 160px 80px;
+    }
+
+
+    /*-------Uniqueness section responsiveness-----------*/
+    .uniqueness {
+        padding: 70px 40px;
+    }
+
+    /*-------Our story section responsiveness-----------*/
+    .introduccontainer2 {
+        padding: 100px 80px;
+    }
+
+    /*-------Show off section responsiveness-----------*/
+    .showofff {
+        gap: 10px;
+    }
+
+
+
+
+    /*============== Products page responsiveness ================*/
+    /*-------Hero section responsiveness-----------*/
+    .prodlistsection {
+        padding: 100px 50px;
+    }
+
+    .productshero {
+        padding: 86px 60px;
+    }
+
+    .blacklist {
+        padding: 70px 70px;
+    }
+
+    .blacklistcol {
+        width: 100%;
+    }
+
+    .blacklistimgcol img {
+        border-radius: 18%;
+    }
+
+    .whitelist {
+        padding: 70px 70px;
+    }
+
+    .whitelistcol {
+        width: 100%;
+    }
+
+    .whitelistimgcol img {
+        border-radius: 18%;
+    }
+
+    /*-------Blacklist section responsiveness-----------*/
+    /*-------Whitelist section responsiveness-----------*/
+    /*-------Ending section responsiveness-----------*/
+
+
+
+
+
+
+
+
+    /*============== Contact page responsiveness ================*/
+    /*-------Form responsiveness-----------*/
+    /*-------Reach section responsiveness-----------*/
+
+    .reach {
+        padding: 70px 30px;
+    }
+
+    .reachcol {
+        padding: 25px 35px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .reachsmlist {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .reachsmeachlist svg {
+        margin: 0px;
+        flex-direction: wrap;
+        background: rgba(224, 224, 224, 0.141);
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+}
+
+
+@media(max-width:70px) {
+    /*------- Navbar responsiveness -----------*/
+
+
+    /*------- Enhancements responsiveness -----------*/
+    .circlee {
+        opacity: 0;
+    }
+
+    /*============== Home page responsiveness ================*/
+    /*-------Hero section responsiveness-----------*/
+    .header {
+        flex-direction: column;
+        padding: 180px 30px;
+    }
+
+    .headercontainer {
+        padding-bottom: 0px;
+        width: 100%;
+    }
+
+    .headerimgcontainer {
+        width: 0%;
+        height: 0px;
+    }
+
+    .headerimgcontainer img {
+        aspect-ratio: 16/9;
+    }
+
+    .header h1 {
+        font-size: 75px;
+        font-weight: 900;
+        line-height: 70px;
+    }
+
+    .header h3 {
+        font-weight: 300;
+        font-size: 17px;
+    }
+
+    /*-------About section responsiveness-----------*/
+    .about {
+        flex-direction: column;
+    }
+
+    .about img {
+        width: 0px;
+        height: 0px;
+    }
+
+    .aboutcontainer {
+        width: 100%;
+        margin-top: -250px;
+    }
+
+    .about h1 {
+        font-size: 55px;
+        font-weight: 800;
+    }
+
+
+
+    /*-------Products section responsiveness-----------*/
+    .products {
+        padding: 100px 50px;
+    }
+
+    .prodraw {
+        flex-wrap: wrap;
+        margin: 0px -10px;
+    }
+
+    .prodcol {
+        width: 45% !important;
+        margin: 30px 25px;
+    }
+
+    .prodcol img {
+        width: 100%;
+    }
+
+    /*-------Ceo section responsiveness-----------*/
+    .ceo {
+        padding: 120px 120px;
+    }
+
+    .ceoimgcont img {
+        width: 250px;
+    }
+
+    .ceotext {
+        padding: 50px -60px;
+    }
+
+    /*-------Testimonials section responsiveness-----------*/
+    .testcontainer {
+        width: 500px;
+    }
+
+    .test_row {
+        margin-top: 40px;
+    }
+
+    .test_col {
+        width: 600px;
+    }
+
+    /*-------Footer section responsiveness-----------*/
+    .footerbrand {
+        margin-right: 40px;
+        width: auto;
+    }
+
+
+    /*============== About page responsiveness ================*/
+    /*-------Hero section responsiveness-----------*/
+    .introduccontainer {
+        padding: 90px 50px;
+        gap: 20px;
+    }
+
+    .introduccontainerimg {
+        width: 40%;
+    }
+
+
+    /*-------What we do section responsiveness-----------*/
+    .introduccontainer3 {
+        padding: 120px 80px;
+    }
+
+    /*-------Missions section responsiveness-----------*/
+    .missraw {
+        padding: 0px 30px;
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+
+    .misscol {
+        width: 80%;
+    }
+
+    /*-------Products section responsiveness-----------*/
+    .aboutprod {
+        padding: 160px 80px;
+    }
+
+
+    /*-------Uniqueness section responsiveness-----------*/
+    .uniqueness {
+        padding: 70px 40px;
+    }
+
+    /*-------Our story section responsiveness-----------*/
+    .introduccontainer2 {
+        padding: 100px 80px;
+    }
+
+    /*-------Show off section responsiveness-----------*/
+    .showofff {
+        gap: 10px;
+    }
+
+
+
+
+    /*============== Products page responsiveness ================*/
+    /*-------Hero section responsiveness-----------*/
+    .prodlistsection {
+        padding: 100px 50px;
+    }
+
+    .productshero {
+        padding: 86px 60px;
+    }
+
+    .blacklist {
+        padding: 70px 70px;
+    }
+
+    .blacklistcol {
+        width: 100%;
+    }
+
+    .blacklistimgcol img {
+        border-radius: 18%;
+    }
+
+    .whitelist {
+        padding: 70px 70px;
+    }
+
+    .whitelistcol {
+        width: 100%;
+    }
+
+    .whitelistimgcol img {
+        border-radius: 18%;
+    }
+
+    /*-------Blacklist section responsiveness-----------*/
+    /*-------Whitelist section responsiveness-----------*/
+    /*-------Ending section responsiveness-----------*/
+
+
+
+
+
+
+
+
+    /*============== Contact page responsiveness ================*/
+    /*-------Form responsiveness-----------*/
+    /*-------Reach section responsiveness-----------*/
+
+    .reach {
+        padding: 70px 30px;
+    }
+
+    .reachcol {
+        padding: 25px 35px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .reachsmlist {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .reachsmeachlist svg {
+        margin: 0px;
+        flex-direction: wrap;
+        background: rgba(224, 224, 224, 0.141);
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,84 @@
+/*------------------------------------------------ Products Part ---------------------------------------------*/
+
+
+.products {
+  padding: 100px;
+  color: rgb(255, 255, 255);
+  animation: fadeleft 1s forwards ease-in-out;
+  background: black;
+  backdrop-filter: blur(200px);
+}
+
+.prodcontainer {
+  padding-left: 40px;
+}
+
+.prodcontainer h3 {
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.products h1 {
+  font-family: "Onest", sans-serif !important;
+  padding-bottom: 5px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.prodraw {
+  display: flex;
+}
+
+
+.prodcol {
+  padding: 23px;
+  box-sizing: border-box;
+  width: 1000px;
+  margin: 50px 25px;
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  border-radius: 3px;
+  transition: 1s;
+  img {
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  h2 {
+    font-family: "Onest", sans-serif !important;
+    padding: 10px 0px;
+    font-weight: 500;
+  }
+
+
+  h4 {
+    font-weight: 200;
+    font-size: 14px;
+  }
+
+  &:hover {
+    scale: 1.08;
+    transition: 0.4s;
+  }
+}
+ 
+.prodbutt {
+  display: flex;
+  padding-left: 41%;
+}
+
+.products a {
+  font-family: "Onest", sans-serif !important;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: white;
+  padding: 10px 20px;
+  color: #08090A;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+
+  &:hover {
+    scale: 1.04;    
+  }
+}

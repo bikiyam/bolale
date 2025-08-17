@@ -1,0 +1,148 @@
+/*------------------------------------------------ Header Section Styling ---------------------------------------------*/
+
+.header {
+  display: flex;
+  padding: 150px 100px;
+  background: transparent;
+  backdrop-filter: blur(150px);
+  /*background: linear-gradient(213deg, rgb(0, 0, 0) 5%, rgb(24, 24, 24) 150%);*/
+  color: white;
+  justify-content: start;
+  align-items: center;
+  gap: 8%;
+  z-index: -10;
+
+  h1 {
+    font-family: "Onest", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 80px;
+    padding: 13px 0px;
+    animation: fadeleft 3.5s forwards cubic-bezier(0.16, 1, 0.3, 1);
+    transition: transform 3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  h3 {
+    font-weight: 200;
+    font-size: 15px;
+    font-family: "Onest", sans-serif !important;
+    animation: fadeleft 2s forwards cubic-bezier(0.16, 1, 0.3, 1);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
+.headercontainer {
+  width: 53%;
+  margin-top: 0px;
+  padding-left: 40px;
+  margin-left: 0px;
+  padding-bottom: 50px;
+
+  div {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    box-sizing: border-box;
+
+    .explore {
+      justify-content: center;
+      width: 150px;
+      
+      color: black;
+      background: white;
+      border-radius: 3px;
+      margin-top: 0px;
+      padding: 8.5px 20px;
+      text-decoration: none;
+      animation: fadeleft 4s forwards cubic-bezier(0.16, 1, 0.3, 1);
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+
+      &:hover {
+        transform: scale(1.05) !important;
+        background: rgb(14, 14, 14);
+        transition: 3s ease-in-out;
+      }
+    }
+
+
+
+    .getinotuch {
+      justify-content: center;
+      width: 120px;
+      color: white;
+      background: #00000000;
+      border-radius: 3px;
+      border: solid 1px white;
+      padding: 8.5px 20px;
+      text-decoration: none;
+      animation: fadeleft 4s forwards cubic-bezier(0.16, 1, 0.3, 1);
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+
+      &:hover {
+        transform: scale(1.05) !important;
+        background: rgb(14, 14, 14);
+        transition: 3s ease-in-out;
+      }
+    }
+  }
+
+}
+
+.headerimgcontainer {
+  width: 31%;
+
+  img {
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 100%;
+    aspect-ratio: 3/3.5;
+    object-fit: cover;
+    animation: faderight 2.5s forwards cubic-bezier(0.83, 0, 0.17, 1);
+  }
+}
+
+.headsimage{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+
+
+@keyframes fadeleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+    filter: blur(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+    filter: blur(0px);
+  }
+}
+
+@keyframes faderight {
+  0% {
+    opacity: 0;
+    transform: translateX(60px);
+    filter: blur(10px);
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.slider {
+  display: flex;
+}
