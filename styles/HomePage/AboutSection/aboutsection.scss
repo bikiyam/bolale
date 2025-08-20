@@ -26,6 +26,7 @@
   padding-bottom: 15px;
   font-size: 60px;
   font-weight: 600;
+  color: black;
 }
 
 .aboutcontainer {
@@ -36,14 +37,14 @@
   font-weight: 400;
   font-size: 17px;
   width: 85%;
-  
+  color: black;  
 }
 
 .about a {
   font-family: "Onest", sans-serif !important;
   box-sizing: border-box;
-  border-radius: 3px;
-  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(0, 139, 2);
   padding: 8px 20px;
   color: #ffffff;
   text-decoration: none;
