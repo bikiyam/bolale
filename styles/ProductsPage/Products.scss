@@ -20,7 +20,7 @@
     rgba(0, 0, 0, 0.6694327389158788) 36%,
     rgba(0, 0, 0, 1) 100%
   );
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(150px);
   padding: 86px 120px;
   color: white;
   text-align: left;
@@ -66,6 +66,8 @@
 
 /*----------- Products List on Products Page --------*/
 .productslisted {
+  z-index: 10;
+  backdrop-filter: blur(150px);
   padding: 50px 100px;
   color: white;
   h2 {
@@ -105,6 +107,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  z-index: 10;
 }
 
 /*---------  Products EACH List ----------*/
